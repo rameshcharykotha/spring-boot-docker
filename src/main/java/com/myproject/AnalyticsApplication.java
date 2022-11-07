@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com")
+@ComponentScan(basePackages = "com.myproject")
 public class AnalyticsApplication {
 
 	public static void main(String[] args) {

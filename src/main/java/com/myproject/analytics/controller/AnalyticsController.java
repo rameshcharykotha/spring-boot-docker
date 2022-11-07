@@ -13,8 +13,9 @@ public class AnalyticsController {
     @Autowired
     AnalyticsService analyticsService;
 
-    @GetMapping("/hello")
+    @GetMapping("list")
     public List<String> listOrders(){
         return analyticsService.listOrders();
     }
+
 }
